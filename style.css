@@ -1,0 +1,828 @@
+* {
+    margin:0;
+}
+html,body {
+    width: 1920px;
+    background-color: #0e0f0e;
+}
+
+.contextPage {
+    display: flex;
+    justify-content: center;
+    max-width: 50%;
+    margin-left: 480px;
+    margin-top: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #3d5651;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+#title {
+    text-align: center;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#blue {
+    color: #4c7fb6;
+}
+
+#fontSmall {
+    font-size: 20px;
+}
+
+#header-icons {
+    padding-left: 20px;
+}
+
+.worldMapDetails {
+
+    background-color: #F5D5AE;
+    max-width: 50%;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    position:relative;
+}
+
+.israelMap {
+    display: flex
+    
+}
+
+/* Haifa City */
+.cityTitleHaifa {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 480px;
+    padding-top: 230px;
+    padding-right: 100px;
+}
+
+ #cityNameHaifa {
+    display: inline;
+    padding: 8px;
+    background-color: #4c7fb6;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+ .cityImageHaifa {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 520px;
+    padding-top: 240px;
+
+}
+ 
+ #cityIconHaifa {
+    display: inline;
+}
+
+/* End Haifa City */
+
+/* Tel Aviv City */
+
+.cityImageTelAviv {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 590px;
+    padding-top: 410px;
+ }
+ 
+ #cityIconTelAviv {
+    display: inline;
+
+ }
+
+.cityTitleTelAviv {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 525px;
+    padding-top: 400px;
+    padding-right: 200px;
+}
+
+ #cityNameTelAviv {
+    display: inline;
+    padding: 8px;
+    background-color: #4c7fb6;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+/* End Tel Aviv City */
+
+
+.Airport {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 560px;
+    padding-top: 460px;
+ }
+ 
+ #Airport {
+    display: inline;
+
+ }
+
+ .Ship1 {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 520px;
+    padding-top: 180px;
+ }
+ 
+ #Ship1 {
+    display: inline;
+
+ }
+
+ .Ship2 {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 720px;
+    padding-top: 470px;
+ }
+ 
+ #Ship2 {
+    display: inline;
+
+ }
+
+ .Beach1 {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 570px;
+    padding-top: 320px;
+ }
+ 
+ #Beach1 {
+    display: inline;
+
+ }
+
+ .Beach2 {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding-top: 245px;
+    
+ }
+ 
+ #Beach2 {
+    display: inline;
+
+ }
+
+ .Beach3 {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 645px;
+    padding-top: 460px;
+ }
+ 
+ #Beach3 {
+    display: inline;
+
+ }
+
+ .Sign1 {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 645px;
+    padding-top: 630px;
+ }
+ 
+ #Sign1 {
+    display: inline;
+
+ }
+
+ .Sign2 {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 510px;
+    padding-top: 870px;
+ }
+ 
+ #Sign2 {
+    display: inline;
+
+ }
+
+ .Arrow1 {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 560px;
+    padding-top: 970px;
+ }
+ 
+ #Arrow1 {
+    display: inline;
+
+ }
+
+ .Arrow2 {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 700px;
+    padding-top: 770px;
+ }
+ 
+ #Arrow2 {
+    display: inline;
+
+ }
+
+ .foreCastImg {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 890px;
+    padding-top: 30px;
+ }
+ 
+ #foreCastImg {
+    display: inline;
+
+ }
+
+ .foreCastTitle {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 800px;
+    padding-top: 70px;
+}
+
+#foreCastName {
+    display: inline;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: #6f757c;
+    letter-spacing: 1px;
+}
+
+.israeltTitle {
+    display: inline;
+    position: absolute;
+    right: 0px;
+    width: 900px;
+    padding-top: 60px;
+}
+
+#israelName {
+    display: inline;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: #6f757c;
+    letter-spacing: 1px;
+    font-size: 60px;
+}
+
+  /* Jerusalem City */
+
+.cityImageJerusalem {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 435px;
+    padding-top: 520px;
+ }
+
+ #cityIconJerusalem {
+
+    display: inline;
+ }
+
+ .cityTitleJerusalem {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 340px;
+    padding-top: 500px;
+    padding-right: 60px;
+}
+
+#cityNameJerusalem {
+    display: inline;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4c7fb6;
+    letter-spacing: 1px;
+}
+ /* End Jerusalem City */
+
+   /* Ashkelon City */
+
+.cityImageAshkelon {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 700px;
+    padding-top: 540px;
+ }
+
+ #cityIconAshkelon {
+
+    display: inline;
+ }
+
+ .cityTitleAshkelon {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 735px;
+    padding-top: 530px;
+    padding-right: 60px;
+}
+
+#cityNameAshkelon {
+    display: inline;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4c7fb6;
+    letter-spacing: 1px;
+}
+ /* End Ashkelon City */
+
+/* BeerSheva City */
+
+.cityImageBeerSheva {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 590px;
+    padding-top: 690px;
+ }
+
+ #cityIconBeerSheva {
+
+    display: inline;
+ }
+
+ .cityTitleBeerSheva {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 540px;
+    padding-top: 660px;
+
+}
+
+#cityNameBeerSheva {
+    display: inline;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4c7fb6;
+    letter-spacing: 1px;
+}
+ /* End BeerSheva City */
+
+ /* Eilat City */
+
+.cityImageEilat{
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 520px;
+    padding-top: 1099px;
+ }
+
+ #cityIconEilat {
+
+    display: inline;
+ }
+
+ .beachImageEilat{
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 545px;
+    padding-top: 1120px;
+ }
+
+ #cbeachIconEilat {
+
+    display: inline;
+ }
+
+ .cityTitleEilat{
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 570px;
+    padding-top: 1075px;
+
+}
+
+#cityNameEilat {
+    display: inline;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4c7fb6;
+    letter-spacing: 1px;
+}
+ /* End Eilat City */
+
+ /* Tiberias City */
+
+ .cityTitleTiberias{
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 350px;
+    padding-top: 305px;
+
+}
+
+#cityNameTiberias {
+    display: inline;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4c7fb6;
+    letter-spacing: 1px;
+}
+
+ /* End Tiberias City */
+
+ /* Lebanon state */
+
+.cityImageLebanon {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 400px;
+    padding-top: 100px;
+ }
+
+ #cityIconLebanon {
+
+    display: inline;
+ }
+
+ .cityTitleLebanon {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 420px;
+    padding-top: 66px;
+
+}
+
+#cityNameLebanon {
+    display: inline;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4c7fb6;
+    letter-spacing: 1px;
+}
+ /* End Lebanon state */
+
+ /* Syria state */
+
+.cityImageSyria {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 140px;
+    padding-top: 100px;
+ }
+
+ #cityIconSyria {
+
+    display: inline;
+ }
+
+ .cityTitleSyria {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 140px;
+    padding-top: 65px;
+
+}
+
+#cityNameSyria {
+    display: inline;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4c7fb6;
+    letter-spacing: 1px;
+}
+ /* End Syria state */
+
+ /* Jordan state */
+
+.cityImageJordan{
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 185px;
+    padding-top: 635px;
+ }
+
+ #cityIconJordan {
+
+    display: inline;
+ }
+
+ .cityTitleJordan {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 200px;
+    padding-top: 600px;
+
+}
+
+#cityNameJordan {
+    display: inline;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4c7fb6;
+    letter-spacing: 1px;
+}
+ /* End Jordan state */
+
+ /* Egypt state */
+
+.cityImageEgypt {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 820px;
+    padding-top: 930px;
+ }
+
+ #cityIconEgypt {
+
+    display: inline;
+ }
+
+ .cityTitleEgypt {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 820px;
+    padding-top: 899px;
+
+}
+
+#cityNameEgypt {
+    display: inline;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4c7fb6;
+    letter-spacing: 1px;
+}
+ /* End Egypt state */
+
+ .thingsToKnow {
+    display: flex;
+    justify-content: center;
+    max-width: 50%;
+    margin-left: 480px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #3d5651;
+ }
+
+ .context {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F5D5AE;
+    max-width: 50%;
+    margin:auto;
+    justify-content: space-evenly;
+    position:relative;
+
+ }
+
+ .boxes {
+    padding-top: 10px;
+    color: white;   
+  background-color: #F5D5AE;
+  max-width: 50%;
+  margin: auto;
+  
+ }
+
+
+
+/* Jerusalem */
+.Jerusalem {
+    min-height: 0px;
+    background-color: #F5D5AE;
+    margin: auto;
+    max-width: 50%;
+}
+
+.title {
+    display: flex;
+    padding: 5px;
+    padding-bottom: 0;
+    
+}
+
+.title h2 {
+    margin: 0;
+    padding-left:10%;
+    padding-top: 110px;
+}
+
+.title img {
+    padding: 8px;
+    object-fit: contain;
+    object-position: right;
+    width: 100%;
+
+}
+
+.background {
+    display: block;
+    padding: 1%;
+    padding-top: 0;    
+    padding-bottom: 0;
+    font-weight: bold;
+}
+.background h3 {
+    text-decoration: underline;
+    color: rgb(43, 40, 40);
+    
+}
+.background h4 {
+    font-size: 16px;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+
+}
+
+.placeToVisit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.placeToVisit h1 {
+display: block;
+}
+
+.box1 {
+display: flex;
+flex-direction: column;
+justify-content:baseline;
+align-items:center;
+background-color: rgb(255, 255, 255);
+border-radius: 20px;
+height: 340px;
+margin: 10px;
+box-shadow: -12px 12px 12px rgb(6, 99, 171);
+
+}
+
+.box1 img {
+  padding: 10px;
+}
+
+.placeToVisit h3 {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.placeToVisit p {
+    text-align: center;
+    max-width: 300px;
+    font-size: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+/* End Jerusalem */
+
+/* Tel Aviv */
+.Telaviv {
+    min-height: 0px;
+    background-color: #F5D5AE;
+    margin: auto;
+    max-width: 50%;
+}
+
+.title1 {
+    display: flex;
+    padding: 5px;
+    padding-bottom: 0;    
+}
+
+.title1 h2 {
+    margin: 0;
+    padding-left:10%;
+    padding-top: 110px;
+   
+}
+
+.title1 img {
+    padding: 8px;
+    object-fit: contain;
+    object-position: right;
+    width: 100%;
+}
+
+.background1 {
+    display: block;
+    padding: 1%;
+    padding-top: 0;    
+    padding-bottom: 0;
+    font-weight: bold;
+}
+.background1 h3 {
+    text-decoration: underline;
+    color: rgb(43, 40, 40);
+    
+}
+.background1 h4 {
+    font-size: 16px;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+
+}
+
+.placeToVisit1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.placeToVisit1 h1 {
+display: block;
+}
+
+.box2 {
+display: flex;
+flex-direction: column;
+justify-content:baseline;
+align-items:center;
+background-color: rgb(255, 255, 255);
+border-radius: 20px;
+height: 400px;
+margin: 10px;
+box-shadow: 12px 12px 12px rgb(6, 99, 171);
+
+}
+
+.box2 img {
+    padding: 10px;
+}
+
+.placeToVisit1 h3 {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.placeToVisit1 p {
+    text-align: center;
+    max-width: 300px;
+    font-size: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+/* End Tel aviv */
+
+
