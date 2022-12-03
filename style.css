@@ -740,6 +740,8 @@ box-shadow: -12px 12px 12px rgb(6, 99, 171);
     background-color: #F5D5AE;
     margin: auto;
     max-width: 50%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .title1 {
